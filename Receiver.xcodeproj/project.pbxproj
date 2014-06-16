@@ -14,6 +14,7 @@
 		1A10DC88194C734B000C8EE0 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A10DC83194C734B000C8EE0 /* Default@2x.png */; };
 		1A10DC89194C734B000C8EE0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A10DC84194C734B000C8EE0 /* Icon.png */; };
 		1A10DC8A194C734B000C8EE0 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A10DC85194C734B000C8EE0 /* Icon@2x.png */; };
+		1AA49DD7194EEEDE00812A7E /* libturbojpeg.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1AA49DD6194EEEDE00812A7E /* libturbojpeg.dylib */; };
 		1AE2CB1D194EE466009B5B32 /* Client.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2CAFC194EE466009B5B32 /* Client.mm */; };
 		1AE2CB1E194EE466009B5B32 /* Events.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2CAFE194EE466009B5B32 /* Events.mm */; };
 		1AE2CB1F194EE466009B5B32 /* Server.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1AE2CB01194EE466009B5B32 /* Server.mm */; };
@@ -65,6 +66,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1AA49DD4194EEEA200812A7E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				1AA49DD7194EEEDE00812A7E /* libturbojpeg.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00745cca6e33589cfa3850428d57b661 /* ofxZmqPair.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqPair.h; path = ../../../addons/ofxZmq/src/ofxZmqPair.h; sourceTree = SOURCE_ROOT; };
 		01e220f072d19bd53f719ac19fd2d99a /* ofxZmqSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqSocket.cpp; path = ../../../addons/ofxZmq/src/ofxZmqSocket.cpp; sourceTree = SOURCE_ROOT; };
@@ -76,6 +90,7 @@
 		1A10DC83194C734B000C8EE0 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "bin/data/Default@2x.png"; sourceTree = "<group>"; };
 		1A10DC84194C734B000C8EE0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = bin/data/Icon.png; sourceTree = "<group>"; };
 		1A10DC85194C734B000C8EE0 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "bin/data/Icon@2x.png"; sourceTree = "<group>"; };
+		1AA49DD6194EEEDE00812A7E /* libturbojpeg.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libturbojpeg.dylib; path = "../../../addons/ofxTurboJpeg/libs/turbo-jpeg/lib/osx/libturbojpeg.dylib"; sourceTree = "<group>"; };
 		1AE2CAFB194EE466009B5B32 /* Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Client.h; sourceTree = "<group>"; };
 		1AE2CAFC194EE466009B5B32 /* Client.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Client.mm; sourceTree = "<group>"; };
 		1AE2CAFD194EE466009B5B32 /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
@@ -236,6 +251,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				1AA49DD6194EEEDE00812A7E /* libturbojpeg.dylib */,
 				1A10DC81194C734B000C8EE0 /* Default-568h@2x~iphone.png */,
 				1A10DC82194C734B000C8EE0 /* Default.png */,
 				1A10DC83194C734B000C8EE0 /* Default@2x.png */,
@@ -441,6 +457,7 @@
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 				9255DD331112741900D6945E /* ShellScript */,
+				1AA49DD4194EEEA200812A7E /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -568,6 +585,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
 				INFOPLIST_FILE = "ofxiphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../addons/ofxTurboJpeg/libs/turbo-jpeg/lib/ios\"",
@@ -582,6 +600,7 @@
 					"../../../addons/ofxTurboJpeg/libs/turbo-jpeg/lib/osx/libturbojpeg.dylib",
 				);
 				PRODUCT_NAME = "${TARGET_NAME}";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
@@ -592,6 +611,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
 				INFOPLIST_FILE = "ofxiphone-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../../addons/ofxTurboJpeg/libs/turbo-jpeg/lib/ios\"",
@@ -606,6 +626,7 @@
 					"../../../addons/ofxTurboJpeg/libs/turbo-jpeg/lib/osx/libturbojpeg.dylib",
 				);
 				PRODUCT_NAME = "${TARGET_NAME}";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;
@@ -616,6 +637,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;
@@ -668,6 +690,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libstdc++";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COMPRESS_PNG_FILES = NO;

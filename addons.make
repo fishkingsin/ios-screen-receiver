@@ -1,3 +1,4 @@
 ofxPublishScreen
 ofxTurboJpeg
 ofxZmq
+ofxBonjour

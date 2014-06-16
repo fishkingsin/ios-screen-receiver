@@ -5,42 +5,66 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B1EB4C1A-1FBF-48DD-9670-7EB8A650A494</string>
+	<string>9CFD8D8C-0A4D-4F1A-8110-1BBC47590AD8</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Receiver</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>1504B1BB-B765-4430-AC11-6210CC14EAAD</key>
-		<string>https://github.com/fishkingsin/ofxTurboJpeg.git</string>
+		<key>14C4F0CC-3355-49D0-89AB-B9E6CC8AA11A</key>
+		<string>https://github.com/robotconscience/ofxBonjour.git</string>
 		<key>1D99ED14-3E86-491F-BC8F-32725808F8B0</key>
 		<string>https://github.com/satoruhiga/ofxZmq.git</string>
-		<key>2E0C8A4B-716B-4BC0-A905-787BA5B15587</key>
-		<string>https://github.com/fishkingsin/ofxPublishScreen.git</string>
+		<key>A21907BC-83CE-4EB5-A93B-DDE01FB54A14</key>
+		<string>https://github.com/satoruhiga/ofxPublishScreen.git</string>
+		<key>B10184D8-5AB7-42B7-882F-D67DB4A3653B</key>
+		<string>https://github.com/fishkingsin/ofxTurboJpeg.git</string>
+		<key>FE4FFA1A-C35C-444C-BF95-DB59BFEA86A2</key>
+		<string>https://github.com/fishkingsin/ios-screen-receiver.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>example-ios-receiver/Receiver.xcodeproj/project.xcworkspace</string>
+	<string>Receiver.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>1504B1BB-B765-4430-AC11-6210CC14EAAD</key>
-		<string>../../../../ofxTurboJpeg</string>
+		<key>14C4F0CC-3355-49D0-89AB-B9E6CC8AA11A</key>
+		<string>../../../../../addons/ofxBonjour</string>
 		<key>1D99ED14-3E86-491F-BC8F-32725808F8B0</key>
-		<string>../../../../ofxZmq</string>
-		<key>2E0C8A4B-716B-4BC0-A905-787BA5B15587</key>
-		<string>../../..</string>
+		<string>../../../../../addons/ofxZmq</string>
+		<key>A21907BC-83CE-4EB5-A93B-DDE01FB54A14</key>
+		<string>../../../../../addons/ofxPublishScreen</string>
+		<key>B10184D8-5AB7-42B7-882F-D67DB4A3653B</key>
+		<string>../../../../../addons/ofxTurboJpeg</string>
+		<key>FE4FFA1A-C35C-444C-BF95-DB59BFEA86A2</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/fishkingsin/ofxPublishScreen.git</string>
+	<string>https://github.com/fishkingsin/ios-screen-receiver.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>2E0C8A4B-716B-4BC0-A905-787BA5B15587</string>
+	<string>FE4FFA1A-C35C-444C-BF95-DB59BFEA86A2</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>2E0C8A4B-716B-4BC0-A905-787BA5B15587</string>
+			<string>FE4FFA1A-C35C-444C-BF95-DB59BFEA86A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ios-screen-receiver</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>14C4F0CC-3355-49D0-89AB-B9E6CC8AA11A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxBonjour</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A21907BC-83CE-4EB5-A93B-DDE01FB54A14</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxPublishScreen</string>
 		</dict>
@@ -48,7 +72,7 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>1504B1BB-B765-4430-AC11-6210CC14EAAD</string>
+			<string>B10184D8-5AB7-42B7-882F-D67DB4A3653B</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ofxTurboJpeg</string>
 		</dict>
