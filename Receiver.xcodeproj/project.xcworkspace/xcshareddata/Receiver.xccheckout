@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B1EB4C1A-1FBF-48DD-9670-7EB8A650A494</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Receiver</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1504B1BB-B765-4430-AC11-6210CC14EAAD</key>
+		<string>https://github.com/fishkingsin/ofxTurboJpeg.git</string>
+		<key>1D99ED14-3E86-491F-BC8F-32725808F8B0</key>
+		<string>https://github.com/satoruhiga/ofxZmq.git</string>
+		<key>2E0C8A4B-716B-4BC0-A905-787BA5B15587</key>
+		<string>https://github.com/fishkingsin/ofxPublishScreen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>example-ios-receiver/Receiver.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1504B1BB-B765-4430-AC11-6210CC14EAAD</key>
+		<string>../../../../ofxTurboJpeg</string>
+		<key>1D99ED14-3E86-491F-BC8F-32725808F8B0</key>
+		<string>../../../../ofxZmq</string>
+		<key>2E0C8A4B-716B-4BC0-A905-787BA5B15587</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/fishkingsin/ofxPublishScreen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2E0C8A4B-716B-4BC0-A905-787BA5B15587</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2E0C8A4B-716B-4BC0-A905-787BA5B15587</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxPublishScreen</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1504B1BB-B765-4430-AC11-6210CC14EAAD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxTurboJpeg</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1D99ED14-3E86-491F-BC8F-32725808F8B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxZmq</string>
+		</dict>
+	</array>
+</dict>
+</plist>
