@@ -94,7 +94,7 @@ void testApp::discoveredServices( vector<NSNetService*> & services ){
 //--------------------------------------------------------------
 void testApp::gotServiceData( Service & service ){
     ofLogVerbose(__PRETTY_FUNCTION__)<< service.ipAddress << ":" << service.port << endl;
-    if(service.ipAddress!="0.0.0.0")
+    if(service.ipAddress!="0.0.0.0" && !isDiscovered)
     {
         subs.setup(service.ipAddress , 20000);
         isDiscovered = true;
